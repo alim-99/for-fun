@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Homemade+Apple&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('../imgs/360_F_308697506_9dsBYHXm9FwuW0qcEqimAEXUvzTwfzwe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  margin: 40px;
+  color: white;
+}
+
+.form-content {
+  margin: 100px;
+}
+
+.form-content p {
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.form-content h3 {
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.form-content .form  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  margin-top: 40px;
+}
+
+input {
+  margin-top: 20px;
+  padding: 15px;
+  outline: none;
+  border: 2px solid #eee;
+}
+
+input:focus {
+  outline: 2px solid blue;
+}
+
+.btn {
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #0000E0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
